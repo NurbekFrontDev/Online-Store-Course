@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./Styles/reset.css" />
+    <link rel="stylesheet" href="./Styles/commons.css" />
+    <link rel="stylesheet" href="./Styles/header.css" />
+    <link rel="stylesheet" href="./Styles/footer.css" />
+    <link rel="stylesheet" href="./Styles/cart.css" />
+    <title>Cart</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left-side">
+            <div class="logo-container">
+                <div class="burger-menu">
+                    <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+                    <label class="burger" for="burger-checkbox"></label>
+                </div>
+                <div class="logo">
+                    <img src="./Icons/logo.svg" alt="logo">
+                </div>
+            </div>
+            <div class="menu">
+                <div class="menu-item">Home</div>
+                <div class="menu-item">
+                    <span>Pages</span>
+                    <img src="./Icons/arrow.svg" alt="arrow" class="arrow-default">
+                    <img src="./Icons/arrow-pink.svg" alt="arrow" class="arrow-hover">
+                </div>
+                <div class="menu-item active">
+                    <span>Shop</span>
+                    <img src="./Icons/arrow.svg" alt="arrow" class="arrow-default">
+                    <img src="./Icons/arrow-pink.svg" alt="arrow" class="arrow-hover">
+                </div>
+                <div class="menu-item">Blog</div>
+                <div class="menu-item">Contact</div>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="header-icon">
+                <img src="./Icons/search.svg" alt="search">
+            </div>
+            <div class="header-icon">
+                <img src="./Icons/profile.svg" alt="profile">
+            </div>
+            <div class="header-icon">
+                <img src="./Icons/favorites.svg" alt="favorites">
+                <div class="counter">1</div>
+            </div>
+            <div class="header-icon">
+                <img src="./Icons/cart.svg" alt="cart">
+                <div class="counter">2</div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="shop-header-wrapper">
+        <div class="shop-header">
+            <div class="vector">
+                <img src="./Icons/vector.svg" alt="Vector">
+            </div>
+            <div class="shop-header-nav">
+                <div class="header-name">Cart</div>
+                <div class="shop-navigation">
+                    <div class="title">Home</div>
+                    <div class="title">Shop</div>
+                    <div class="title active">Cart</div>
+                </div>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="shop-img"></div>
+    </div>
+
+    <div class="container">
+        <div class="cart">
+            <div class="order-wrapper">
+                <div class="product-list">
+                    <div class="product">
+                        <div class="photo"></div>
+                        <div class="product-info">
+                            <div class="title">Fashionee - catton shirt (S)</div>
+                            <div class="price-wrapper">
+                                <div class="price-and-quantity">
+                                    <div class="price">
+                                        <div class="old-price">$52.99</div>
+                                        <div class="current-price">$35.99</div>
+                                    </div>
+                                    <div class="quantity">
+                                        <div class="count-botton">-</div>
+                                        <div class="count">1</div>
+                                        <div class="count-botton">+</div>
+                                    </div>
+                                </div>
+                                <div class="total-price">
+                                    $35.99
+                                </div>
+                            </div>
+                            <div class="close">X</div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="photo"></div>
+                        <div class="product-info">
+                            <div class="title">Spray wrap skirt</div>
+                            <div class="price-wrapper">
+                                <div class="price-and-quantity">
+                                    <div class="price">
+                                        <div class="current-price">$110.99</div>
+                                    </div>
+                                    <div class="quantity">
+                                        <div class="count-botton">-</div>
+                                        <div class="count">1</div>
+                                        <div class="count-botton">+</div>
+                                    </div>
+                                </div>
+                                <div class="total-price">
+                                    $110.99
+                                </div>
+                            </div>
+                            <div class="close">X</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="order">
+                    <div class="title">Your Order</div>
+                    <div class="order-price-wrapper">
+                        <div class="price-row">
+                            <div class="name">Оrder price</div>
+                            <div class="price">$146.98</div>
+                        </div>
+                        <div class="price-row">
+                            <div class="name">Discount for promo code</div>
+                            <div>No</div>
+                        </div>
+                        <div class="price-row delimiter">
+                            <div class="name">
+                                Delivery <span class="additional">(Aug 02 at 16:00)</span>
+                            </div>
+                            <div class="price">$16</div>
+                        </div>
+                        <div class="price-row total">
+                            <div class="name">Total</div>
+                            <div class="price">$162.98</div>
+                        </div>
+                    </div>
+                    <div class="button-wrapper">
+                        <button class="button">Checkout</button>
+                        <div class="vertical-line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="promo-code-wrapper">
+                <div class="info">
+                    <div class="title">You Have A Promo Code?</div>
+                    <div class="description">To receive up-to-date promotional codes, subscribe to us on social
+                        networks.</div>
+                </div>
+                <div class="promo-code">
+                    <input type="text" name="promo-code" placeholder="Enter promo code" class="input">
+                    <div class="button-wrapper">
+                        <button class="button">
+                            <img src="./Icons/button-arrow.svg" alt="Button-arrow">
+                        </button>
+                        <div class="vertical-line"></div>
+                    </div>
+                </div>
+                <div class="find-us">
+                    <div class="find-us-text">Find us here:</div>
+                    <div class="find-us-links">
+                        <div class="find-us-link">
+                            <a href="">FB</a>
+                        </div>
+                        <div class="line"></div>
+                        <div class="find-us-link">
+                            <a href="">TW</a>
+                        </div>
+                        <div class="line"></div>
+                        <div class="find-us-link">
+                            <a href="">INS</a>
+                        </div>
+                        <div class="line"></div>
+                        <div class="find-us-link">
+                            <a href="">PT</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-info">
+                <div class="column  column-1">
+                    <div class="logo">
+                        <img src="./Icons/logo.svg" alt="logo">
+                    </div>
+                    <div class="about-brand">
+                        Cillum eu id enim aliquip aute ullamco anim. Culpa deserunt nostrud excepteur voluptate.
+                    </div>
+                    <div class="find-us">
+                        <div class="find-us-text">Find us here:</div>
+                        <div class="find-us-links">
+                            <div class="find-us-link">
+                                <a href="">FB</a>
+                            </div>
+                            <div class="line"></div>
+                            <div class="find-us-link">
+                                <a href="">TW</a>
+                            </div>
+                            <div class="line"></div>
+                            <div class="find-us-link">
+                                <a href="">INS</a>
+                            </div>
+                            <div class="line"></div>
+                            <div class="find-us-link">
+                                <a href="">PT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column column-2">
+                    <div class="title">About</div>
+                    <ul class="custom-list">
+                        <li class="item"><a href="">About us</a></li>
+                        <li class="item"><a href="">Collections</a></li>
+                        <li class="item"><a href="">Shop</a></li>
+                        <li class="item"><a href="">Blog</a></li>
+                        <li class="item"><a href="">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="column column-3">
+                    <div class="title">Useful links</div>
+                    <ul class="custom-list">
+                        <li class="item"><a href="">Privacy Policy</a></li>
+                        <li class="item"><a href="">Terms of use</a></li>
+                        <li class="item"><a href="">Support</a></li>
+                        <li class="item"><a href="">Shipping details</a></li>
+                        <li class="item"><a href="">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="column column-4">
+                    <div class="title">Newsletter</div>
+                    <div class="newsletter-text">
+                        Subscribe to be the first to hear about deals, offers and upcoming collections.
+                    </div>
+                    <div class="newsletter-form">
+                        <form action="">
+                            <label>
+                                <input type="text" placeholder="Enter your email" class="input">
+                                <img src="./Icons/send.svg" alt="send" class="send-icon">
+                            </label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <div>
+                    © All right reserved. Fashionee 2020
+                </div>
+                <div class="payment-methods-container">
+                    <div>Payment methods:</div>
+                    <div class="payment-methods">
+                        <div class="payment-method">
+                            <img src="./Icons/visa.svg" alt="Visa">
+                        </div>
+                        <div class="payment-method">
+                            <img src="./Icons/mastercard.svg" alt="Master Card">
+                        </div>
+                        <div class="payment-method">
+                            <img src="./Icons/paypal.svg" alt="PayPal">
+                        </div>
+                        <div class="payment-method">
+                            <img src="./Icons/payoneer.svg" alt="Payoneer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="small-dot-image">
+            <img src="./Icons/dot.svg" alt="Dots Image">
+        </div>
+        <div class="middle-dot-image">
+            <img src="./Icons/footer-dot.svg" alt="Dots Image">
+        </div>
+    </footer>
+</body>
+
+</html>

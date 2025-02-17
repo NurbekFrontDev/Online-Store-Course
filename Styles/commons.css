@@ -1,0 +1,222 @@
+* {
+    font-family: Raleway;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.shop-header-wrapper {
+    display: flex;
+    gap: 150px;
+    margin-top: 50px;
+    align-items: center;
+    max-width: 1800px;
+    width: 100%;
+    position: relative;
+}
+
+.shop-header-wrapper .line {
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+    height: 2px;
+}
+
+.shop-header-wrapper .shop-header .vector {
+    margin-left: 60px;
+    position: absolute;
+    top: 32px;
+    left: 0;
+}
+
+.shop-header-wrapper .shop-header-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 2;
+}
+
+.shop-header-wrapper .shop-header-nav .header-name {
+    font-family: Josefin Sans;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 80px;
+}
+
+.shop-header-wrapper .shop-header-nav .shop-navigation {
+    display: flex;
+    gap: 12px;
+    padding-left: 12px;
+    border-left: 1.5px solid rgba(0, 0, 0, 1);
+}
+
+.shop-header-wrapper .shop-header-nav .shop-navigation .title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+
+.shop-header-wrapper .shop-header-nav .shop-navigation .title:hover {
+    color: rgba(255, 142, 142, 1);
+}
+
+.shop-header-wrapper .shop-header-nav .shop-navigation .title.active {
+    color: rgba(255, 142, 142, 1);
+}
+
+.shop-header-wrapper .shop-header {
+    max-width: 850px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.shop-header-wrapper .shop-img {
+    max-width: 800px;
+    width: 100%;
+    height: 400px;
+    background: rgba(241, 242, 243, 1);
+}
+
+
+.newsletter-box .input,
+.container .input {
+    border: none;
+    border-bottom: 1px solid rgba(68, 68, 68, 20%);
+    width: 100%;
+    color: rgba(68, 68, 68, 50%);
+    outline: none;
+    padding: 0 0 15px 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.newsletter-box .button-wrapper,
+.container .button-wrapper {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    max-width: 240px;
+    width: 100%;
+    cursor: pointer;
+}
+.newsletter-box .button-wrapper .button,
+.container .button-wrapper .button {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    border: none;
+    background: rgba(0, 0, 0, 1);
+    padding: 17px 74px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.newsletter-box .button-wrapper .vertical-line,
+.container .button-wrapper .vertical-line {
+    width: 2px;
+    height: 50px;
+    background: rgba(0, 0, 0, 1);
+}
+
+.container .prices {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.container .price .current-price {
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.container .price .old-price {
+    font-family: Josefin Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    text-decoration: line-through;
+    color: rgba(68, 68, 68, 1);
+}
+
+.container .custom-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container  .custom-list .item {
+    color: rgba(68, 68, 68, 1);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.container  .custom-list .item::before {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-image: url(/Icons/square.svg);
+}
+
+
+.container  .custom-list .item.active {
+    color: #FF8E8E;
+}
+
+.container  .custom-list .item.active::before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-image: url(/Icons/small-row.svg);
+}
+
+.container .find-us .find-us-text {
+    margin: 0 0 20px 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.container .find-us .find-us-links {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.container .find-us .find-us-links .find-us-link a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+    color: rgba(68, 68, 68, 1);
+}
+
+.container .find-us .find-us-links .line {
+    border-bottom: 1px solid #444444;
+    height: 1px;
+    width: 10px;
+}
+

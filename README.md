@@ -15,10 +15,10 @@
 (Netlify) [Online Store Course](https://online-store-course-netlify.netlify.app/)  
 
 ## 🛠 Используемые технологии  
-Проект написан с использованием:  
-- ✅ HTML  
-- ✅ CSS  
+Проект написан с использованием: 
 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo" /><img width="15"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />   
+  
 ## 📥 Установка и запуск  
 ### 1️⃣ Клонирование репозитория  
 Чтобы скачать проект, используйте команду:  

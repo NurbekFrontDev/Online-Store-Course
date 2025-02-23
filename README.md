@@ -43,5 +43,5 @@ git clone git@github.com:NurbekFrontDev/Online-Store-Course.git
 ![Image](https://github.com/user-attachments/assets/3c6450e5-4a54-4e0a-8c0e-8c7d5f356670)
 ## 📩 Контакты
 #### GitHub: [NurbekFrontDev](https://github.com/NurbekFrontDev)
-#### Telegram: [nurbekkDD](https://t.me/nurbekkDD)
-#### Email: [p896566@gmail.com](mailto:p896566@gmail.com)
+#### Telegram: [nurbekfrontdev](https://t.me/nurbekfrontdev)
+#### Email: [Email](mailto:dlaprogrammirovanieidlaameriki@gmail.com)
